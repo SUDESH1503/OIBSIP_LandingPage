@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f2f2f2;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.products {
+    /* Add product card styles here */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color:#fff;
+}
